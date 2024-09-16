@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using OpenLayers with Vite</title>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <select id="floor-select" class="level">
+      <option value="11111111-1111-1111-1111-111111111111">Floor 1</option>
+      <option value="11111111-1111-1111-1111-111111111112">Floor 2</option>
+    </select>
+    <div id="side-panel" class="side-panel">
+      <span id="close-btn">&times;</span>
+      <div id="side-panel-content"></div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
